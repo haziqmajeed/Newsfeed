@@ -1,0 +1,99 @@
+/* Page Container */
+.news-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f9fafb;
+}
+
+/* Page Title */
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #1f2933;
+}
+
+/* Search Input */
+.search-input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  margin-bottom: 30px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* News List */
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Link Reset */
+.news-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* News Card */
+.news-card {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* News Image */
+.news-image {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* News Content */
+.news-content {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Title */
+.news-title {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #111827;
+}
+
+/* Empty State */
+.no-results {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+
+.refresh-indicator {
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
